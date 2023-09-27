@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  float val1,val2;
+  cout<<"entrer la premiere valeur : ";
+  cin>>val1;
+  cout<<"entrer la deuxieme valeur : ";
+  cin>>val2;
+  float resultat;
+
+resultat=val1+val2;
+
+cout<<"voici la somme : "<<resultat<<endl;
+system("PAUSE");
+return 0;
+}
